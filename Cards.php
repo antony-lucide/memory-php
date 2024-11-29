@@ -31,7 +31,7 @@ class MemoryGame {
         $cards = array_merge($list, $list); // Create pairs
         shuffle($cards); // Shuffle the cards
         foreach ($cards as $index => $card) {
-            $cards[$index]['id'] = $index; // Assign unique IDs to cards
+            $cards[$index]['id'] = $index; 
         }
         return $cards;
     }
